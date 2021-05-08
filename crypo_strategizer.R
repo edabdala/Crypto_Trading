@@ -43,8 +43,3 @@ exit_strategy <- function(curr_price, investment, r_fee = .005, d_return, optima
 }
 
 exit_strategy(curr_price, investment, d_return = .05, optimal_shares = optimal_shares)
-
-
-share_optimize <- function(r_fee) {
-  
-}
